@@ -208,6 +208,7 @@ header{
 }
 .review__wrapper{
     transition: 1s;
+    padding: 0;
 }
 .review__wrapper:hover{
     transform: rotateY(25deg);
