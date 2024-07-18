@@ -1080,6 +1080,9 @@ height: 25%;
     .materials__block1,.materials__block2{
         padding: 1em;
     }
+    .benefits-title{
+        font-size: 40px;
+    }
     .benefits__dl{
         width: 32%;
     }
@@ -1088,6 +1091,9 @@ height: 25%;
     }
     .FAQ{
         padding: 2em;
+    }
+    .FAQ-p{
+        font-size: 14px;
     }
     .leave-a-request-h3{
         font-size: 35px;
