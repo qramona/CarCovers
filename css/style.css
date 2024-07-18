@@ -1030,7 +1030,10 @@ height: 25%;
         padding: 7em 1em;
     }
     .preview-h1{
-        font-size: 50px;
+        font-size: 45px;
+    }
+    .preview-h5{
+        font-size: 18px;
     }
     .review__block1{
         font-size: 12px;
@@ -1096,7 +1099,7 @@ height: 25%;
         font-size: 14px;
     }
     .leave-a-request-h3{
-        font-size: 35px;
+        font-size: 30px;
     }
     .leave-a-request-p{
         font-size: 18px;
