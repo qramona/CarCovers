@@ -7,6 +7,9 @@ a{
 li{
     list-style: none;
 }
+body{
+    overflow-x: hidden;
+}
 .header__background,.header__gradient{
     height: 80vh;
 }
