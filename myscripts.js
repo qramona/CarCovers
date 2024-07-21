@@ -1,15 +1,14 @@
 $(document).ready(function () {
-    $('.burger-menu').click(function () {
+    $(".burger-menu").click(function () {
+        $(".modal_menu").css('width','100dvw');
+        $('body').css('overflow','hidden');
+        $('.modal_menu .close').css('display','flex');
+    });
 
-        $('.header__menu-items').css('display', 'flex');
-        $('.burger-menu').css('display', 'none');
-        $('.close-logo').css('display', 'flex');
-    })
-    $('#close-logo').click(function () {
-        $('#menu-items').css('display', 'none');
-        $('#close-logo').css('display', 'none');
-        $('#burger-menu').css('display', 'flex');
-    })
+    $('.modal_menu .close').click(function () {
+        $(".modal_menu").css('width','0dvw');
+        $('body').css('overflow','auto');
+    });
 });
 
 let swiper = new Swiper(".mySwiper", {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Чехлы</title>
@@ -17,12 +17,33 @@
     <script src="myscripts.js" defer></script>
 </head>
 <body>
+<div class="modal_menu">
+    <div class="close">
+        <img src="assets/CloseLogo.svg" alt="CloseLogo">
+    </div>
+<div class="menu__items">
+    <a href="#" class="menu__item">
+        Главная
+    </a>
+    <a href="#" class="menu__item">
+        Аксессуары
+    </a>
+    <a href="#" class="menu__item">
+        Чехлы
+    </a>
+    <a href="#" class="menu__item">
+        Контакты
+    </a>
+        <a class="menu__item" href="#">
+            <button class="feedback-button" id="feedback-button0">Обратный звонок</button>
+        </a>
+</div>
+</div>
+
 <div class="wrapper__main-background">
     <div class="header__background">
         <div class="header__gradient">
 <header class="header">
-<!--    <div class="container">-->
-<!--        <div class="row">-->
        <nav class="header__navigation">
            <a href="#" class="Logo"><img class="Logo-img" src="assets/LOGO.svg" alt="Logo"></a>
            <ul class="header-nav__ul">
@@ -61,36 +82,8 @@
                    <p class="basket-amount-p">0</p>
                </div>
            </div>
-
-           <div class="header__items header-burger">
-               <nav class="items-nav">
-                   <div class="header__burger-icons" id="header-icons">
-                       <img class="burger-menu" id="burger-menu" src="assets/BurgerIcon.svg" alt="">
-                       <img class="close-logo" id="close-logo" src="assets/CloseLogo.svg" alt="">
-                       <div class="header__menu-items" id="menu-items">
-                           <ul class="menu__list-burger" id="list-burger">
-                               <li class="menu__list-item">
-                                   <a href="#" class="menu__link menu__link--active">Главная</a>
-                               </li>
-                               <li class="menu__list-item">
-                                   <a href="#" class="menu__link menu__link--active">Аксессуары</a>
-                               </li>
-                               <li class="menu__list-item">
-                                   <a href="#" class="menu__link menu__link--active">Чехлы</a>
-                               </li>
-                               <li class="menu__list-item">
-                                   <a href="#" class="menu__link menu__link--active">Контакты</a>
-                               </li>
-                               <button class="feedback-button" >Обратный звонок</button>
-                           </ul>
-                           <div class="background__list-item"></div>
-                       </div>
-                   </div>
-               </nav>
-           </div>
+           <img class="burger-menu" id="burger-menu" src="assets/BurgerIcon.svg" alt="">
        </nav>
-<!--    </div>-->
-<!--</div>-->
 </header>
 
     <section class="preview">
@@ -106,12 +99,13 @@
     </section>
     </div>
     </div>
+
     <section class="company-introduction">
         <div class="container">
             <div class="row">
-                <div class="review__blocks-wrapper col-12">
-                    <div class="row">
-                        <div class="review__wrapper col-6 col-md-6">
+                <div class="review__blocks-wrapper">
+                    <div class="review__block-wrapper">
+                        <div class="review__wrapper">
                             <dl class="review__block1">
                                 <dt class="review-dt">
                                     <b class="review-b">2000+</b>
@@ -125,7 +119,7 @@
                             </div>
                         </div>
 
-                        <div class="review__wrapper col-6 col-md-6">
+                        <div class="review__wrapper">
                             <dl class="review__block1">
                                 <dt class="review-dt">
                                     <b class="review-b">800+</b>
@@ -139,9 +133,8 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="review__wrapper col-6 col-md-6">
+                    <div class="review__block-wrapper">
+                        <div class="review__wrapper">
                             <dl class="review__block1">
                                 <dt class="review-dt">
                                     <b class="review-b">5</b>лет
@@ -155,7 +148,7 @@
                             </div>
                         </div>
 
-                        <div class="review__wrapper col-6 col-md-6">
+                        <div class="review__wrapper">
                             <dl class="review__block1">
                                 <dt class="review-dt">
                                     <b class="review-b">2</b>недели
@@ -169,12 +162,11 @@
                             </div>
                         </div>
                     </div>
-
+                    </div>
                 </div>
             </div>
-        </div>
-
     </section>
+
     <section class="CarCover__slider">
         <div class="container">
             <div class="row">
